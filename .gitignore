@@ -1,0 +1,26 @@
+# Ignore everything in ns-3 except the sagin folder
+# /*
+# !/sagin/
+# !/sagin/**
+
+# Ignore build files
+build/
+*.o
+*.so
+*.a
+*.out
+
+# Ignore common temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore Zone Identifier files
+*.zone
+
+# Ignore CMake files
+*.cmake
+
+# Ignore Makefiles (if generated)
+Makefile
+makefile
